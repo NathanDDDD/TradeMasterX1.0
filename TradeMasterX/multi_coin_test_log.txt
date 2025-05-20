@@ -1,0 +1,69 @@
+Starting multi-cryptocurrency trade test...
+Initial portfolio: {'cash': 7547.931617280001, 'bitcoin': 0.10535982387200002, 'ethereum': 0.0232768, 'litecoin': 0.009310720000000001, 'cardano': 0.0, 'dogecoin': 0.0}
+
+Testing BUY trade for bitcoin...
+[ERROR] Database error: table trades has no column named coin
+[TRADE] Trade executed: BUY bitcoin 0.150959 at $10000.00, Portfolio: $8927.41
+Trade result: {'timestamp': '2025-05-20T05:16:08.036386', 'coin': 'bitcoin', 'action': 'BUY', 'price': 10000.0, 'amount': 0.15095863234560003, 'portfolio': {'cash': 6038.345293824001, 'bitcoin': 0.2563184562176001, 'ethereum': 0.0232768, 'litecoin': 0.009310720000000001, 'cardano': 0.0, 'dogecoin': 0.0}, 'portfolio_value': 8927.405056000001}
+Updated portfolio: {'cash': 6038.345293824001, 'bitcoin': 0.2563184562176001, 'ethereum': 0.0232768, 'litecoin': 0.009310720000000001, 'cardano': 0.0, 'dogecoin': 0.0}
+
+Testing BUY trade for ethereum...
+[TRADE] Trade executed: BUY ethereum 0.120767 at $10000.00, Portfolio: $8927.41
+Trade result: {'timestamp': '2025-05-20T05:16:09.060066', 'coin': 'ethereum', 'action': 'BUY', 'price': 10000.0, 'amount': 0.12076690587648002, 'portfolio': {'cash': 4830.676235059201, 'bitcoin': 0.2563184562176001, 'ethereum': 0.14404370587648002, 'litecoin': 0.009310720000000001, 'cardano': 0.0, 'dogecoin': 0.0}, 'portfolio_value': 8927.405056000003}
+Updated portfolio: {'cash': 4830.676235059201, 'bitcoin': 0.2563184562176001, 'ethereum': 0.14404370587648002, 'litecoin': 0.009310720000000001, 'cardano': 0.0, 'dogecoin': 0.0}
+
+Testing BUY trade for litecoin...
+[TRADE] Trade executed: BUY litecoin 0.096614 at $10000.00, Portfolio: $8927.41
+Trade result: {'timestamp': '2025-05-20T05:16:10.090679', 'coin': 'litecoin', 'action': 'BUY', 'price': 10000.0, 'amount': 0.09661352470118402, 'portfolio': {'cash': 3864.5409880473608, 'bitcoin': 0.2563184562176001, 'ethereum': 0.14404370587648002, 'litecoin': 0.10592424470118403, 'cardano': 0.0, 'dogecoin': 0.0}, 'portfolio_value': 8927.405056000003}
+Updated portfolio: {'cash': 3864.5409880473608, 'bitcoin': 0.2563184562176001, 'ethereum': 0.14404370587648002, 'litecoin': 0.10592424470118403, 'cardano': 0.0, 'dogecoin': 0.0}
+
+Testing BUY trade for cardano...
+[TRADE] Trade executed: BUY cardano 0.077291 at $10000.00, Portfolio: $8927.41
+Trade result: {'timestamp': '2025-05-20T05:16:11.103256', 'coin': 'cardano', 'action': 'BUY', 'price': 10000.0, 'amount': 0.07729081976094722, 'portfolio': {'cash': 3091.6327904378886, 'bitcoin': 0.2563184562176001, 'ethereum': 0.14404370587648002, 'litecoin': 0.10592424470118403, 'cardano': 0.07729081976094722, 'dogecoin': 0.0}, 'portfolio_value': 8927.405056000001}
+Updated portfolio: {'cash': 3091.6327904378886, 'bitcoin': 0.2563184562176001, 'ethereum': 0.14404370587648002, 'litecoin': 0.10592424470118403, 'cardano': 0.07729081976094722, 'dogecoin': 0.0}
+
+Testing BUY trade for dogecoin...
+[TRADE] Trade executed: BUY dogecoin 0.061833 at $10000.00, Portfolio: $8927.41
+Trade result: {'timestamp': '2025-05-20T05:16:12.136221', 'coin': 'dogecoin', 'action': 'BUY', 'price': 10000.0, 'amount': 0.06183265580875777, 'portfolio': {'cash': 2473.306232350311, 'bitcoin': 0.2563184562176001, 'ethereum': 0.14404370587648002, 'litecoin': 0.10592424470118403, 'cardano': 0.07729081976094722, 'dogecoin': 0.06183265580875777}, 'portfolio_value': 8927.405056000001}
+Updated portfolio: {'cash': 2473.306232350311, 'bitcoin': 0.2563184562176001, 'ethereum': 0.14404370587648002, 'litecoin': 0.10592424470118403, 'cardano': 0.07729081976094722, 'dogecoin': 0.06183265580875777}
+
+Testing SELL trade for bitcoin...
+[TRADE] Trade executed: SELL bitcoin 0.128159 at $10000.00, Portfolio: $8927.41
+Trade result: {'timestamp': '2025-05-20T05:16:13.156743', 'coin': 'bitcoin', 'action': 'SELL', 'price': 10000.0, 'amount': 0.12815922810880004, 'portfolio': {'cash': 3754.898513438311, 'bitcoin': 0.12815922810880004, 'ethereum': 0.14404370587648002, 'litecoin': 0.10592424470118403, 'cardano': 0.07729081976094722, 'dogecoin': 0.06183265580875777}, 'portfolio_value': 8927.405056000001}
+Updated portfolio: {'cash': 3754.898513438311, 'bitcoin': 0.12815922810880004, 'ethereum': 0.14404370587648002, 'litecoin': 0.10592424470118403, 'cardano': 0.07729081976094722, 'dogecoin': 0.06183265580875777}
+
+Testing SELL trade for ethereum...
+[TRADE] Trade executed: SELL ethereum 0.072022 at $10000.00, Portfolio: $8927.41
+Trade result: {'timestamp': '2025-05-20T05:16:14.169119', 'coin': 'ethereum', 'action': 'SELL', 'price': 10000.0, 'amount': 0.07202185293824001, 'portfolio': {'cash': 4475.1170428207115, 'bitcoin': 0.12815922810880004, 'ethereum': 0.07202185293824001, 'litecoin': 0.10592424470118403, 'cardano': 0.07729081976094722, 'dogecoin': 0.06183265580875777}, 'portfolio_value': 8927.405056000003}
+Updated portfolio: {'cash': 4475.1170428207115, 'bitcoin': 0.12815922810880004, 'ethereum': 0.07202185293824001, 'litecoin': 0.10592424470118403, 'cardano': 0.07729081976094722, 'dogecoin': 0.06183265580875777}
+
+Testing SELL trade for litecoin...
+[TRADE] Trade executed: SELL litecoin 0.052962 at $10000.00, Portfolio: $8927.41
+Trade result: {'timestamp': '2025-05-20T05:16:15.192892', 'coin': 'litecoin', 'action': 'SELL', 'price': 10000.0, 'amount': 0.052962122350592014, 'portfolio': {'cash': 5004.738266326632, 'bitcoin': 0.12815922810880004, 'ethereum': 0.07202185293824001, 'litecoin': 0.052962122350592014, 'cardano': 0.07729081976094722, 'dogecoin': 0.06183265580875777}, 'portfolio_value': 8927.405056000003}
+Updated portfolio: {'cash': 5004.738266326632, 'bitcoin': 0.12815922810880004, 'ethereum': 0.07202185293824001, 'litecoin': 0.052962122350592014, 'cardano': 0.07729081976094722, 'dogecoin': 0.06183265580875777}
+
+Testing SELL trade for cardano...
+[TRADE] Trade executed: SELL cardano 0.038645 at $10000.00, Portfolio: $8927.41
+Trade result: {'timestamp': '2025-05-20T05:16:16.215003', 'coin': 'cardano', 'action': 'SELL', 'price': 10000.0, 'amount': 0.03864540988047361, 'portfolio': {'cash': 5391.192365131368, 'bitcoin': 0.12815922810880004, 'ethereum': 0.07202185293824001, 'litecoin': 0.052962122350592014, 'cardano': 0.03864540988047361, 'dogecoin': 0.06183265580875777}, 'portfolio_value': 8927.405056000003}
+Updated portfolio: {'cash': 5391.192365131368, 'bitcoin': 0.12815922810880004, 'ethereum': 0.07202185293824001, 'litecoin': 0.052962122350592014, 'cardano': 0.03864540988047361, 'dogecoin': 0.06183265580875777}
+
+Testing SELL trade for dogecoin...
+[TRADE] Trade executed: SELL dogecoin 0.030916 at $10000.00, Portfolio: $8927.41
+Trade result: {'timestamp': '2025-05-20T05:16:17.238724', 'coin': 'dogecoin', 'action': 'SELL', 'price': 10000.0, 'amount': 0.030916327904378885, 'portfolio': {'cash': 5700.355644175157, 'bitcoin': 0.12815922810880004, 'ethereum': 0.07202185293824001, 'litecoin': 0.052962122350592014, 'cardano': 0.03864540988047361, 'dogecoin': 0.030916327904378885}, 'portfolio_value': 8927.405056000003}
+Updated portfolio: {'cash': 5700.355644175157, 'bitcoin': 0.12815922810880004, 'ethereum': 0.07202185293824001, 'litecoin': 0.052962122350592014, 'cardano': 0.03864540988047361, 'dogecoin': 0.030916327904378885}
+
+Testing coin selector...
+Round 1: Selected bitcoin
+Round 2: Selected litecoin
+Round 3: Selected cardano
+Round 4: Selected dogecoin
+Round 5: Selected bitcoin
+Round 6: Selected litecoin
+Round 7: Selected cardano
+Round 8: Selected dogecoin
+Round 9: Selected bitcoin
+Round 10: Selected litecoin
+
+All tests passed successfully!
+
+TEST PASSED

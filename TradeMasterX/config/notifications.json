@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "console_output": true,
+    "log_file": true,
+    "email": {
+        "enabled": false,
+        "smtp_server": "",
+        "smtp_port": 587,
+        "username": "",
+        "password": "",
+        "from_address": "",
+        "to_address": ""
+    },
+    "notification_levels": {
+        "INFO": true,
+        "TRADE": true,
+        "WARNING": true,
+        "ERROR": true
+    },
+    "throttle_minutes": 5
+}

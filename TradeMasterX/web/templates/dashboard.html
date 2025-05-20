@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TradeMasterX Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="container mt-4">
+    <h1>TradeMasterX Dashboard</h1>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Recent Trades</h3>
+            <table class="table table-striped" id="trades-table">
+                <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Coin</th>
+                    <th>Action</th>
+                    <th>Amount</th>
+                    <th>Price</th>
+                </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="col-md-6">
+            <h3>Portfolio Value</h3>
+            <canvas id="portfolioChart" height="200"></canvas>
+        </div>
+    </div>
+</div>
+<script>
+// Fetch and display trades
+fetch('/api/trades').then(r => r.json()).then(data => {
+    const tbody = document.querySelector('#trades-table tbody');
+    tbody.innerHTML = '';
+    data.forEach(trade => {
+        const row = document.createElement('tr');
+        row.innerHTML = `<td>${trade.timestamp}</td><td>${trade.coin || ''}</td><td>${trade.action}</td><td>${trade.amount}</td><td>${trade.price}</td>`;
+        tbody.appendChild(row);
+    });
+});
+// Fetch and display portfolio value
+fetch('/api/portfolio').then(r => r.json()).then(data => {
+    const ctx = document.getElementById('portfolioChart').getContext('2d');
+    const values = data.map(x => x.value);
+    const labels = data.map(x => x.timestamp);
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{label: 'Portfolio Value', data: values, borderColor: 'blue', fill: false}]
+        },
+        options: {scales: {x: {display: false}}}
+    });
+});
+</script>
+</body>
+</html>

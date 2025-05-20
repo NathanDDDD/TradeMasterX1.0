@@ -1,0 +1,80 @@
+2025-05-20T02:55:09.879006 [INFO] MasterBot initialized with 5 bots, trading bitcoin, ethereum, litecoin with SIMULATED data
+2025-05-20T02:55:09.899114 [INFO] MasterBot starting trading operations
+2025-05-20T02:55:18.166581 [ERROR] Error in main loop: 'crypto'
+2025-05-20T03:01:14.196632 [ERROR] Error in main loop: 'crypto'
+2025-05-20T03:06:25.551229 [ERROR] Error in main loop: 'crypto'
+2025-05-20T03:11:26.367803 [ERROR] Error in main loop: 'crypto'
+2025-05-20T03:13:44.892879 [INFO] MasterBot stopped by user
+2025-05-20T03:33:40.717308 [ERROR] Database error: table trades has no column named coin
+2025-05-20T03:33:40.741815 [TRADE] Trade executed: BUY bitcoin 0.200000 at $10000.00, Portfolio: $10000.00
+2025-05-20T03:33:41.781637 [TRADE] Trade executed: BUY ethereum 0.160000 at $10000.00, Portfolio: $10000.00
+2025-05-20T03:33:42.821084 [TRADE] Trade executed: BUY litecoin 0.128000 at $10000.00, Portfolio: $10000.00
+2025-05-20T03:33:43.856339 [TRADE] Trade executed: BUY cardano 0.102400 at $10000.00, Portfolio: $10000.00
+2025-05-20T03:33:44.887229 [TRADE] Trade executed: BUY dogecoin 0.081920 at $10000.00, Portfolio: $10000.00
+2025-05-20T03:33:45.904953 [TRADE] Trade executed: SELL bitcoin 0.100000 at $10000.00, Portfolio: $10000.00
+2025-05-20T03:33:46.935344 [TRADE] Trade executed: SELL ethereum 0.080000 at $10000.00, Portfolio: $10000.00
+2025-05-20T03:33:47.955626 [TRADE] Trade executed: SELL litecoin 0.064000 at $10000.00, Portfolio: $10000.00
+2025-05-20T03:33:48.984507 [TRADE] Trade executed: SELL cardano 0.051200 at $10000.00, Portfolio: $10000.00
+2025-05-20T03:33:50.006102 [TRADE] Trade executed: SELL dogecoin 0.040960 at $10000.00, Portfolio: $10000.00
+2025-05-20T04:36:19.903245 [ERROR] Database error: table trades has no column named coin
+2025-05-20T04:36:19.919207 [TRADE] Trade executed: BUY bitcoin 0.132768 at $10000.00, Portfolio: $10000.00
+2025-05-20T04:36:20.942318 [TRADE] Trade executed: BUY ethereum 0.106214 at $10000.00, Portfolio: $10000.00
+2025-05-20T04:36:21.962968 [TRADE] Trade executed: BUY litecoin 0.084972 at $10000.00, Portfolio: $10000.00
+2025-05-20T04:36:22.985403 [TRADE] Trade executed: BUY cardano 0.067977 at $10000.00, Portfolio: $10000.00
+2025-05-20T04:36:23.998616 [TRADE] Trade executed: BUY dogecoin 0.054382 at $10000.00, Portfolio: $10000.00
+2025-05-20T04:36:25.020358 [TRADE] Trade executed: SELL bitcoin 0.116384 at $10000.00, Portfolio: $10000.00
+2025-05-20T04:36:26.032785 [TRADE] Trade executed: SELL ethereum 0.093107 at $10000.00, Portfolio: $10000.00
+2025-05-20T04:36:27.058004 [TRADE] Trade executed: SELL litecoin 0.074486 at $10000.00, Portfolio: $10000.00
+2025-05-20T04:36:28.068325 [TRADE] Trade executed: SELL cardano 0.059589 at $10000.00, Portfolio: $10000.00
+2025-05-20T04:36:29.091661 [TRADE] Trade executed: SELL dogecoin 0.047671 at $10000.00, Portfolio: $10000.00
+2025-05-20T04:38:49.645466 [INFO] MasterBot initialized with 5 bots, trading bitcoin, ethereum, litecoin with SIMULATED data
+2025-05-20T04:38:49.657088 [INFO] MasterBot starting trading operations
+2025-05-20T04:38:49.727672 [ERROR] Error in main loop: This StandardScaler instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-05-20T04:39:00.958155 [INFO] MasterBot stopped by user
+2025-05-20T04:41:13.894806 [INFO] Prediction model trained with F1 score: 0.5683
+2025-05-20T04:42:38.971741 [ERROR] Error in main loop: X has 5 features, but StandardScaler is expecting 21 features as input.
+2025-05-20T04:44:38.968425 [INFO] MasterBot initialized with 5 bots, trading bitcoin, ethereum, litecoin with SIMULATED data
+2025-05-20T04:44:38.983329 [INFO] MasterBot starting trading operations
+2025-05-20T04:45:17.390876 [INFO] MasterBot initialized with 5 bots, trading bitcoin, ethereum, litecoin, ripple, dogecoin with SIMULATED data
+2025-05-20T04:45:27.785637 [ERROR] Database error: table trades has no column named coin
+2025-05-20T04:45:27.803857 [TRADE] Trade executed: SELL bitcoin 0.058192 at $10000.00, Portfolio: $8927.41
+2025-05-20T04:45:27.815157 [TRADE] Trade executed: SELL bitcoin (consensus: 3/5), Portfolio: $8927.41
+2025-05-20T04:45:31.882920 [TRADE] Trade executed: SELL litecoin 0.037243 at $10000.00, Portfolio: $8927.41
+2025-05-20T04:45:31.893456 [TRADE] Trade executed: SELL litecoin (consensus: 3/5), Portfolio: $8927.41
+2025-05-20T04:45:37.747839 [TRADE] Trade executed: SELL bitcoin 0.058192 at $10000.00, Portfolio: $9404.11
+2025-05-20T04:45:37.758311 [TRADE] Trade executed: SELL bitcoin (consensus: 3/5), Portfolio: $9404.11
+2025-05-20T04:45:43.881349 [TRADE] Trade executed: SELL litecoin 0.037243 at $10000.00, Portfolio: $9404.11
+2025-05-20T04:45:43.892899 [TRADE] Trade executed: SELL litecoin (consensus: 3/5), Portfolio: $9404.11
+2025-05-20T04:45:54.058779 [TRADE] Trade executed: BUY litecoin 0.140840 at $10000.00, Portfolio: $9404.11
+2025-05-20T04:45:54.070389 [TRADE] Trade executed: BUY litecoin (consensus: 3/5), Portfolio: $9404.11
+2025-05-20T04:46:18.454357 [TRADE] Trade executed: BUY ripple 0.112672 at $10000.00, Portfolio: $9404.11
+2025-05-20T04:46:18.466757 [TRADE] Trade executed: BUY ripple (consensus: 3/5), Portfolio: $9404.11
+2025-05-20T04:46:28.772446 [TRADE] Trade executed: SELL litecoin 0.018621 at $10000.00, Portfolio: $8927.41
+2025-05-20T04:46:30.374979 [INFO] MasterBot stopped by user
+2025-05-20T04:50:02.070711 [INFO] MasterBot initialized with 5 bots, trading bitcoin, ethereum, litecoin with SIMULATED data
+2025-05-20T04:50:02.083038 [INFO] MasterBot starting trading operations
+2025-05-20T04:50:06.200009 [TRADE] Trade executed: BUY bitcoin 0.144564 at $10000.00, Portfolio: $8927.41
+2025-05-20T04:50:06.216099 [TRADE] Trade executed: BUY bitcoin (consensus: 3/5), Portfolio: $8927.41
+2025-05-20T04:50:40.741695 [ERROR] Database error: table trades has no column named coin
+2025-05-20T04:50:40.760101 [TRADE] Trade executed: SELL ethereum 0.046554 at $10000.00, Portfolio: $8927.41
+2025-05-20T04:50:40.771903 [TRADE] Trade executed: SELL ethereum (consensus: 3/5), Portfolio: $8927.41
+2025-05-20T04:50:42.811093 [TRADE] Trade executed: SELL bitcoin 0.101378 at $10000.00, Portfolio: $8927.41
+2025-05-20T04:50:42.822843 [TRADE] Trade executed: SELL bitcoin (consensus: 3/5), Portfolio: $8927.41
+2025-05-20T04:50:57.040474 [TRADE] Trade executed: SELL bitcoin 0.050689 at $10000.00, Portfolio: $8927.41
+2025-05-20T04:51:23.447404 [TRADE] Trade executed: SELL ethereum 0.023277 at $10000.00, Portfolio: $8927.41
+2025-05-20T04:52:14.747306 [TRADE] Trade executed: BUY bitcoin 0.160031 at $10000.00, Portfolio: $8927.41
+2025-05-20T04:52:22.894141 [TRADE] Trade executed: SELL litecoin 0.009311 at $10000.00, Portfolio: $8927.41
+2025-05-20T04:52:22.907738 [TRADE] Trade executed: SELL litecoin (consensus: 3/5), Portfolio: $8927.41
+2025-05-20T04:52:27.002943 [TRADE] Trade executed: SELL bitcoin 0.105360 at $10000.00, Portfolio: $8927.41
+2025-05-20T04:52:27.329194 [INFO] MasterBot stopped by user
+2025-05-20T05:16:08.040479 [ERROR] Database error: table trades has no column named coin
+2025-05-20T05:16:08.057779 [TRADE] Trade executed: BUY bitcoin 0.150959 at $10000.00, Portfolio: $8927.41
+2025-05-20T05:16:09.088588 [TRADE] Trade executed: BUY ethereum 0.120767 at $10000.00, Portfolio: $8927.41
+2025-05-20T05:16:10.101145 [TRADE] Trade executed: BUY litecoin 0.096614 at $10000.00, Portfolio: $8927.41
+2025-05-20T05:16:11.134178 [TRADE] Trade executed: BUY cardano 0.077291 at $10000.00, Portfolio: $8927.41
+2025-05-20T05:16:12.154778 [TRADE] Trade executed: BUY dogecoin 0.061833 at $10000.00, Portfolio: $8927.41
+2025-05-20T05:16:13.166788 [TRADE] Trade executed: SELL bitcoin 0.128159 at $10000.00, Portfolio: $8927.41
+2025-05-20T05:16:14.191716 [TRADE] Trade executed: SELL ethereum 0.072022 at $10000.00, Portfolio: $8927.41
+2025-05-20T05:16:15.214017 [TRADE] Trade executed: SELL litecoin 0.052962 at $10000.00, Portfolio: $8927.41
+2025-05-20T05:16:16.237594 [TRADE] Trade executed: SELL cardano 0.038645 at $10000.00, Portfolio: $8927.41
+2025-05-20T05:16:17.248300 [TRADE] Trade executed: SELL dogecoin 0.030916 at $10000.00, Portfolio: $8927.41

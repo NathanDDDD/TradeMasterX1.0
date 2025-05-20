@@ -1,0 +1,22 @@
+{
+    "log_level": "INFO",
+    "email": {
+        "enabled": false,
+        "sender": "your-email@gmail.com",
+        "recipient": "your-email@gmail.com",
+        "password": "your-app-password",
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587
+    },
+    "retry": {
+        "max_attempts": 3,
+        "delay_seconds": 5
+    },
+    "critical_errors": [
+        "DatabaseError",
+        "ConnectionError"
+    ],
+    "ignored_errors": [
+        "KeyboardInterrupt"
+    ]
+}
